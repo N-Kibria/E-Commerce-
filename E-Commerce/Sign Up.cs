@@ -56,7 +56,7 @@ namespace E_Commerce
                 {
                     if (password == retype_pass)
                     {
-                        string path = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
+                        string path = @"C:\Users\User\source\repos\E-Com\Information.txt";
                         StreamWriter sw = File.AppendText(path);
                         user uu = new user(user_name, password,name);
                         utility.users.Add(uu);

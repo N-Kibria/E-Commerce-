@@ -75,5 +75,12 @@ namespace E_Commerce
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            admin ad = new admin();
+            ad.Show();
+            this.Hide();
+        }
     }
 }

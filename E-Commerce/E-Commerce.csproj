@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="balance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,12 @@
     <Compile Include="review.Designer.cs">
       <DependentUpon>review.cs</DependentUpon>
     </Compile>
+    <Compile Include="shoplist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shoplist.Designer.cs">
+      <DependentUpon>shoplist.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sign Up.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +110,9 @@
     <Compile Include="welcome.Designer.cs">
       <DependentUpon>welcome.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="balance.resx">
       <DependentUpon>balance.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +139,9 @@
     </Compile>
     <EmbeddedResource Include="review.resx">
       <DependentUpon>review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shoplist.resx">
+      <DependentUpon>shoplist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sign Up.resx">
       <DependentUpon>Sign Up.cs</DependentUpon>

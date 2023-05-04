@@ -16,7 +16,7 @@ namespace E_Commerce
 
         public static void load_users()
         {
-            string path = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
+            string path = @"C:\Users\User\source\repos\E-Com\Information.txt";
             StreamReader srr = new StreamReader(path);
 
             var strr = srr.ReadLine();
