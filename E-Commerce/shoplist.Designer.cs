@@ -72,11 +72,11 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.Info;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(328, 333);
+            this.label4.Location = new System.Drawing.Point(348, 332);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(174, 32);
+            this.label4.Size = new System.Drawing.Size(125, 32);
             this.label4.TabIndex = 3;
-            this.label4.Text = "KAYKRAFT";
+            this.label4.Text = "TextMart";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // shoplist

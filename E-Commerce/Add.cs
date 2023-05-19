@@ -36,5 +36,13 @@ namespace E_Commerce
             ew.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TextMart r2 = new TextMart();
+            r2.Show();
+            this.Hide();
+
+        }
     }
 }

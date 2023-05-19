@@ -1,6 +1,6 @@
 ﻿namespace E_Commerce
 {
-    partial class aarong
+    partial class TextMart
     {
         /// <summary>
         /// Required designer variable.
@@ -36,10 +36,10 @@
             // 
             this.listViewfile.BackColor = System.Drawing.SystemColors.MenuBar;
             this.listViewfile.HideSelection = false;
-            this.listViewfile.Location = new System.Drawing.Point(12, 12);
+            this.listViewfile.Location = new System.Drawing.Point(33, 24);
             this.listViewfile.Name = "listViewfile";
-            this.listViewfile.Size = new System.Drawing.Size(1140, 553);
-            this.listViewfile.TabIndex = 1;
+            this.listViewfile.Size = new System.Drawing.Size(1158, 533);
+            this.listViewfile.TabIndex = 2;
             this.listViewfile.UseCompatibleStateImageBehavior = false;
             this.listViewfile.SelectedIndexChanged += new System.EventHandler(this.listViewfile_SelectedIndexChanged);
             this.listViewfile.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listViewfile_MouseClick);
@@ -48,25 +48,26 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(875, 601);
+            this.button1.Location = new System.Drawing.Point(926, 576);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(277, 44);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Back to Main Page";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // aarong
+            // TextMart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1381, 687);
+            this.ClientSize = new System.Drawing.Size(1299, 665);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listViewfile);
-            this.Name = "aarong";
-            this.Text = "aarong";
-            this.Load += new System.EventHandler(this.aarong_Load);
+            this.Name = "TextMart";
+            this.Text = "TextMart";
+            this.Load += new System.EventHandler(this.TextMart_Load);
+            this.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TextMart_MouseDoubleClick);
             this.ResumeLayout(false);
 
         }

@@ -114,6 +114,12 @@
     <Compile Include="Sign Up.Designer.cs">
       <DependentUpon>Sign Up.cs</DependentUpon>
     </Compile>
+    <Compile Include="TextMart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextMart.Designer.cs">
+      <DependentUpon>TextMart.cs</DependentUpon>
+    </Compile>
     <Compile Include="user.cs" />
     <Compile Include="utility.cs" />
     <Compile Include="welcome.cs">
@@ -163,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sign Up.resx">
       <DependentUpon>Sign Up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextMart.resx">
+      <DependentUpon>TextMart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="welcome.resx">
       <DependentUpon>welcome.cs</DependentUpon>

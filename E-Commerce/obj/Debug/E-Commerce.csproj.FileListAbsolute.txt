@@ -79,3 +79,4 @@ C:\Users\User\Desktop\projectt\E-Commerce\obj\Debug\E-Commerce.exe
 C:\Users\User\Desktop\projectt\E-Commerce\obj\Debug\E-Commerce.pdb
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.aarong.resources
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.bata.resources
+C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.TextMart.resources
