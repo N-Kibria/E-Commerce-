@@ -56,7 +56,7 @@ namespace E_Commerce
                 {
                     if (password == retype_pass)
                     {
-                        string path = @"C:\Users\user\Desktop\ecom\Information.txt";
+                        string path = @"C:\Users\User\Desktop\projectt\Information.txt";
                         StreamWriter sw = File.AppendText(path);
                         user uu = new user(user_name, password,name);
                         utility.users.Add(uu);
@@ -84,9 +84,10 @@ namespace E_Commerce
             }
         }
 
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
 
-
-
+        }
     }
 }
 

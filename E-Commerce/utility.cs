@@ -15,8 +15,9 @@ namespace E_Commerce
         internal static List<user> users = new List<user>();
 
         public static void load_users()
+
         {
-            string path = @"C:\Users\user\Desktop\ecom\Information.txt";
+            string path = @"C:\Users\User\Desktop\projectt\Information.txt";
             StreamReader srr = new StreamReader(path);
 
             var strr = srr.ReadLine();

@@ -47,7 +47,7 @@ namespace E_Commerce
 
         private void cartbtn_Click(object sender, EventArgs e)
         {
-            cart p1 = new cart();
+            Add p1 = new Add();
             p1.Show();
             this.Hide();
         }

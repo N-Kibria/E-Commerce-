@@ -28,26 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.backbtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // backbtn
+            // button1
             // 
-            this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.Location = new System.Drawing.Point(643, 339);
-            this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(106, 46);
-            this.backbtn.TabIndex = 1;
-            this.backbtn.Text = "Back";
-            this.backbtn.UseVisualStyleBackColor = true;
-            this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(682, 424);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(185, 74);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Back to main page";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // review
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.backbtn);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(900, 562);
+            this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "review";
             this.Text = "review";
             this.ResumeLayout(false);
@@ -56,6 +58,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button backbtn;
+        private System.Windows.Forms.Button button1;
     }
 }

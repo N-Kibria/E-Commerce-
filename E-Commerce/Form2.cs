@@ -72,7 +72,7 @@ namespace E_Commerce
         }
         private void populate()
         {
-            string[] paths = Directory.GetFiles(@"C:\Users\user\Desktop\ecom\shoes");
+            string[] paths = Directory.GetFiles(@"C:\Users\User\Desktop\projectt\shoes");
             try
             {
                 int index = 0;
@@ -94,6 +94,13 @@ namespace E_Commerce
         private void listViewfile_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Add qwe = new Add();
+            qwe.Show();
+            this.Hide();
         }
     }
 }

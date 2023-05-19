@@ -19,8 +19,13 @@ namespace E_Commerce
 
         private void backbtn_Click(object sender, EventArgs e)
         {
-            welcome lf = new welcome();
-            lf.Show();
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            welcome we = new welcome();
+            we.Show();
             this.Hide();
         }
     }
