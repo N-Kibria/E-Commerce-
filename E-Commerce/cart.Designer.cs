@@ -46,11 +46,12 @@
             // 
             // addbutton
             // 
+            this.addbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addbutton.Location = new System.Drawing.Point(264, 118);
             this.addbutton.Name = "addbutton";
             this.addbutton.Size = new System.Drawing.Size(133, 67);
             this.addbutton.TabIndex = 2;
-            this.addbutton.Text = "Add";
+            this.addbutton.Text = "ADD";
             this.addbutton.UseVisualStyleBackColor = true;
             this.addbutton.Click += new System.EventHandler(this.addbutton_Click);
             // 
