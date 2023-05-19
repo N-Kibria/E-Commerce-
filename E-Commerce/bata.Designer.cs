@@ -1,6 +1,6 @@
 ﻿namespace E_Commerce
 {
-    partial class Form2
+    partial class bata
     {
         /// <summary>
         /// Required designer variable.
@@ -34,6 +34,7 @@
             // 
             // listViewfile
             // 
+            this.listViewfile.BackColor = System.Drawing.SystemColors.MenuBar;
             this.listViewfile.HideSelection = false;
             this.listViewfile.Location = new System.Drawing.Point(12, 21);
             this.listViewfile.Name = "listViewfile";
@@ -55,14 +56,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form2
+            // bata
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1425, 676);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listViewfile);
-            this.Name = "Form2";
+            this.Name = "bata";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);

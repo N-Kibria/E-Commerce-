@@ -17,7 +17,7 @@ namespace E_Commerce
         public static void load_users()
 
         {
-            string path = @"C:\Users\User\Desktop\projectt\Information.txt";
+            string path = @"C:\Users\user\Desktop\ecom\Information.txt";
             StreamReader srr = new StreamReader(path);
 
             var strr = srr.ReadLine();

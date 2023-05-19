@@ -10,30 +10,17 @@ using System.Windows.Forms;
 
 namespace E_Commerce
 {
-    public partial class Add : Form
+    public partial class aarong : Form
     {
-        public Add()
+        public aarong()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            bata f2 = new bata();
-            f2.Show();
-            this.Hide();
-
-        }
-
-        private void Aarong_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            aarong ew = new aarong(); 
-            ew.Show();
+            Add qaw = new Add();
+            qaw.Show();
             this.Hide();
         }
     }

@@ -43,9 +43,7 @@ C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E-Commerce.csproj.SuggestedBindi
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.Add.resources
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.admin.resources
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.balance.resources
-C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.cart.resources
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.Form1.resources
-C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.Form2.resources
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.order_status.resources
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.profile.resources
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.Properties.Resources.resources
@@ -79,3 +77,5 @@ C:\Users\User\Desktop\projectt\E-Commerce\obj\Debug\E-Commerce.csproj.GenerateRe
 C:\Users\User\Desktop\projectt\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\projectt\E-Commerce\obj\Debug\E-Commerce.exe
 C:\Users\User\Desktop\projectt\E-Commerce\obj\Debug\E-Commerce.pdb
+C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.aarong.resources
+C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.bata.resources

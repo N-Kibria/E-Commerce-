@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace E_Commerce
 {
-    public partial class Form2 : Form
+    public partial class bata : Form
     {
         private ImageList imgs = new ImageList();
 
-        public Form2()
+        public bata()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace E_Commerce
     { 0, 1500m },
     { 1, 1700.99m },
     { 2, 2000m },
-      { 3, 1499m },
+    { 3, 1499m },
     { 4, 1999m },
     { 5, 2000m },
      { 6, 1500m },
@@ -72,7 +72,7 @@ namespace E_Commerce
         }
         private void populate()
         {
-            string[] paths = Directory.GetFiles(@"C:\Users\User\Desktop\projectt\shoes");
+            string[] paths = Directory.GetFiles(@"C:\Users\user\Desktop\ecom\shoes");
             try
             {
                 int index = 0;

@@ -68,6 +68,8 @@ namespace E_Commerce
             else
             {
                 MessageBox.Show("Wrong username or password");
+                textBox2.Text = "";
+
             }
         }
 
@@ -81,6 +83,11 @@ namespace E_Commerce
             admin ad = new admin();
             ad.Show();
             this.Hide();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
