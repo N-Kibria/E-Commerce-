@@ -36,6 +36,8 @@ C:\Users\User\Source\Repos\E-Com\E-Commerce\obj\Debug\E-Commerce.csproj.Generate
 C:\Users\User\Source\Repos\E-Com\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
 C:\Users\User\Source\Repos\E-Com\E-Commerce\obj\Debug\E-Commerce.exe
 C:\Users\User\Source\Repos\E-Com\E-Commerce\obj\Debug\E-Commerce.pdb
+C:\Users\user\Desktop\ecom\E-Commerce\bin\Debug\E-Commerce.exe
+C:\Users\user\Desktop\ecom\E-Commerce\bin\Debug\E-Commerce.exe.config
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E-Commerce.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E-Commerce.csproj.SuggestedBindingRedirects.cache
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.Add.resources
@@ -55,7 +57,4 @@ C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E-Commerce.csproj.GenerateResour
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E-Commerce.exe
 C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E-Commerce.pdb
-C:\Users\user\Desktop\ecom\E-Commerce\bin\Debug\E-Commerce.exe.config
-C:\Users\user\Desktop\ecom\E-Commerce\bin\Debug\E-Commerce.exe
 C:\Users\user\Desktop\ecom\E-Commerce\bin\Debug\E-Commerce.pdb
-C:\Users\user\Desktop\ecom\E-Commerce\obj\Debug\E_Commerce.Form3.resources
