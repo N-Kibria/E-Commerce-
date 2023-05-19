@@ -20,16 +20,12 @@ namespace E_Commerce
         }
         private Dictionary<int, decimal> AarongPrices = new Dictionary<int, decimal>
 {
-    { 0, 1500m },
-    { 1, 1700.99m },
-    { 2, 2000m },
-    { 3, 1499m },
-    { 4, 1999m },
-    { 5, 2000m },
-     { 6, 1500m },
-    { 7, 1800.99m },
-    { 8, 2000m },
-      { 9, 1499m },
+    { 0, 1584m },
+    { 1, 2560m },
+    { 2, 2500m },
+    { 3,  2300m },
+    { 4, 2199m },
+   
     
     // Add more key-value pairs as needed
 };
@@ -79,7 +75,7 @@ namespace E_Commerce
         }
         private void populate()
         {
-            string[] paths = Directory.GetFiles(@"C:\Users\user\Desktop\ecom\Aarong");
+            string[] paths = Directory.GetFiles(@"G:\IUT\Semester\1-2\SWE 4202\zzz\Aarong");
             try
             {
                 int index = 0;

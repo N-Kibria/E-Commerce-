@@ -57,6 +57,7 @@
             this.ordertab.SelectedIndex = 0;
             this.ordertab.Size = new System.Drawing.Size(656, 369);
             this.ordertab.TabIndex = 1;
+            this.ordertab.SelectedIndexChanged += new System.EventHandler(this.ordertab_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -73,7 +74,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = " Order Form";
             this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // btnneworder
             // 
@@ -85,6 +85,7 @@
             this.btnneworder.TabIndex = 5;
             this.btnneworder.Text = "New order";
             this.btnneworder.UseVisualStyleBackColor = true;
+            this.btnneworder.Click += new System.EventHandler(this.btnneworder_Click);
             // 
             // lblitemsordered
             // 
@@ -96,6 +97,7 @@
             this.lblitemsordered.Size = new System.Drawing.Size(160, 27);
             this.lblitemsordered.TabIndex = 4;
             this.lblitemsordered.Text = "Items ordered : 0";
+            this.lblitemsordered.Click += new System.EventHandler(this.lblitemsordered_Click);
             // 
             // btnaddtoorder
             // 
@@ -107,6 +109,7 @@
             this.btnaddtoorder.TabIndex = 3;
             this.btnaddtoorder.Text = "Add to order";
             this.btnaddtoorder.UseVisualStyleBackColor = true;
+            this.btnaddtoorder.Click += new System.EventHandler(this.btnaddtoorder_Click);
             // 
             // dudproducts
             // 
@@ -114,6 +117,7 @@
             this.dudproducts.Name = "dudproducts";
             this.dudproducts.Size = new System.Drawing.Size(228, 22);
             this.dudproducts.TabIndex = 2;
+            this.dudproducts.SelectedItemChanged += new System.EventHandler(this.dudproducts_SelectedItemChanged);
             // 
             // label1
             // 
@@ -124,6 +128,7 @@
             this.label1.Size = new System.Drawing.Size(171, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Order Address";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtorderaddsress
             // 
@@ -132,6 +137,7 @@
             this.txtorderaddsress.Name = "txtorderaddsress";
             this.txtorderaddsress.Size = new System.Drawing.Size(528, 88);
             this.txtorderaddsress.TabIndex = 0;
+            this.txtorderaddsress.TextChanged += new System.EventHandler(this.txtorderaddsress_TextChanged);
             // 
             // shoppingtab
             // 
@@ -195,6 +201,7 @@
             this.Controls.Add(this.ordertab);
             this.Name = "cartorder";
             this.Text = "cartorder";
+            this.Load += new System.EventHandler(this.cartorder_Load);
             this.ordertab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
