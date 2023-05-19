@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -43,6 +44,13 @@ namespace E_Commerce
             r2.Show();
             this.Hide();
 
+        }
+
+        private void orderbutton_Click(object sender, EventArgs e)
+        {
+            cartorder c1 = new cartorder();
+            c1.Show();
+            this.Hide();
         }
     }
 }
