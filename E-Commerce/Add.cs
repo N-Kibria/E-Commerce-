@@ -10,25 +10,29 @@ using System.Windows.Forms;
 
 namespace E_Commerce
 {
-    public partial class cart : Form
+    public partial class Add : Form
     {
-        public cart()
+        public Add()
         {
             InitializeComponent();
         }
 
-        private void backbtn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            welcome lf = new welcome();
-            lf.Show();
+            Form2 f2 = new Form2();
+            f2.Show();
             this.Hide();
+
         }
 
-        private void addbutton_Click(object sender, EventArgs e)
+        private void Aarong_Click(object sender, EventArgs e)
         {
-            Add a2 = new Add();
-            a2.Show();
-            this.Hide();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
