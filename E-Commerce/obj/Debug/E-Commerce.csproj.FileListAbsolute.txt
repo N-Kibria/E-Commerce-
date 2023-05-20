@@ -138,7 +138,6 @@ C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.Add.resources
 C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.admin.resources
 C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.aftercheckout.resources
 C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.cartorder.resources
-C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.Form1.resources
 C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.bata.resources
 C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.profile.resources
 C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.Properties.Resources.resources
@@ -197,3 +196,4 @@ G:\IUT\Semester\1-2\SWE 4202\1\E-Commerce\obj\Debug\E-Commerce.csproj.GenerateRe
 G:\IUT\Semester\1-2\SWE 4202\1\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
 G:\IUT\Semester\1-2\SWE 4202\1\E-Commerce\obj\Debug\E-Commerce.exe
 G:\IUT\Semester\1-2\SWE 4202\1\E-Commerce\obj\Debug\E-Commerce.pdb
+C:\Users\user\Desktop\Ecom-level@3\E-Commerce\obj\Debug\E_Commerce.login.resources

@@ -165,6 +165,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="review.resx">
       <DependentUpon>review.cs</DependentUpon>
@@ -190,6 +191,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-clothing-clothes-shop-hanger-modern-shop-boutique.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i5iz_6f0s_180710.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i5iz_6f0s_1807101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i5iz_6f0s_1807102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 002337.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4002676.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2667824.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rm184-aum-06e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rm184-aum-06e1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rm184-aum-06e2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rm184-aum-06e3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cart to oder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 003040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 015319.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 015634.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 015930.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 020428.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 0204281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\422.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-clothing-clothes-shop-hanger-modern-shop-boutique1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-clothing-clothes-shop-hanger-modern-shop-boutique2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 0030401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26678241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-21 0023371.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

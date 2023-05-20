@@ -60,5 +60,10 @@ namespace E_Commerce
             w1.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

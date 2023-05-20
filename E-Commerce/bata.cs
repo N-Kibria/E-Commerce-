@@ -72,7 +72,7 @@ namespace E_Commerce
         }
         private void populate()
         {
-            string[] paths = Directory.GetFiles(@"C:\Users\User\Desktop\dummy2\shoes");
+            string[] paths = Directory.GetFiles(@"C:\Users\user\Desktop\Ecom-level@3\shoes");
             try
             {
                 int index = 0;
@@ -101,6 +101,11 @@ namespace E_Commerce
             Add qwe = new Add();
             qwe.Show();
             this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
