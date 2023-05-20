@@ -39,9 +39,9 @@
             this.backbtn.Location = new System.Drawing.Point(411, 404);
             this.backbtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(239, 43);
+            this.backbtn.Size = new System.Drawing.Size(227, 66);
             this.backbtn.TabIndex = 2;
-            this.backbtn.Text = "Back to Main Page";
+            this.backbtn.Text = "Back to Welcome Page";
             this.backbtn.UseVisualStyleBackColor = false;
             this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
             // 

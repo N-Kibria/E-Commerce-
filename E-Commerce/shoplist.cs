@@ -38,14 +38,27 @@ namespace E_Commerce
 
         private void shoplist_Load(object sender, EventArgs e)
         {
-            
-                listBox1.Items.Add(review.sum1.ToString());
-                listBox2.Items.Add(review.sum2.ToString());
-                listBox3.Items.Add(review.sum3.ToString());
-                listBox4.Items.Add(review.sum4.ToString());
-                listBox5.Items.Add(review.sum5.ToString());
-                listBox6.Items.Add(review.sum6.ToString());
 
+            listBox1.Items.Add("Shop ID: 01");
+            listBox1.Items.Add($"Points earned: {utility.sum1.ToString()}");
+            listBox1.Items.Add($"Warnings till now: {utility.sum6.ToString()}");
+            listBox1.Items.Add("Number of products: 10");
+            listBox1.Items.Add("Measurements available:");
+            listBox1.Items.Add("36,38,40,42");
+
+            listBox2.Items.Add("Shop ID: 02");
+            listBox2.Items.Add($"Points earned: {utility.sum2.ToString()}");
+            listBox2.Items.Add($"Warnings till now:{utility.sum5.ToString()}");
+            listBox2.Items.Add("Number of products: 5");
+            listBox2.Items.Add("Measurements available:");
+            listBox2.Items.Add("36,38,40,42");
+
+            listBox3.Items.Add("Shop ID: 03");
+            listBox3.Items.Add($"Points earned: {utility.sum3.ToString()}");
+            listBox3.Items.Add($"Warnings till now: {utility.sum4.ToString()}");
+            listBox3.Items.Add("Number of products: 5");
+            listBox3.Items.Add("Measurements available:");
+            listBox3.Items.Add("36,38,40,42");
 
 
 
@@ -53,9 +66,14 @@ namespace E_Commerce
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 q1 = new Form1();
+            login q1 = new login();
             q1.Show();
             this.Hide();
+
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

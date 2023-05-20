@@ -46,7 +46,7 @@ namespace E_Commerce
         }
         private void populate()
         {
-            string[] paths = Directory.GetFiles(@"C:\Users\user\Desktop\Ecom-level@3\TextMart");
+            string[] paths = Directory.GetFiles(@"C:\Users\User\Desktop\dummy2\TextMart");
             try
             {
                 int index = 0;

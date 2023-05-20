@@ -14,10 +14,17 @@ namespace E_Commerce
     {
         internal static List<user> users = new List<user>();
 
+        public static double sum1 = 0;
+        public static double sum2 = 0;
+        public static double sum3 = 0;
+        public static double sum4 = 0;
+        public static double sum5 = 0;
+        public static double sum6 = 0;
+
         public static void load_users()
 
         {
-            string path = @"C:\Users\user\Desktop\Ecom-level@3\Information.txt";
+            string path = @"C:\Users\User\Desktop\dummy2\Information.txt";
         
         StreamReader srr = new StreamReader(path);
 

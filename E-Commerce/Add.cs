@@ -60,7 +60,7 @@ namespace E_Commerce
 
         private void button4_Click(object sender, EventArgs e)
         {
-           Form1 ss = new Form1 ();
+           login ss = new login ();
             ss.Show();
             this.Hide();
         }

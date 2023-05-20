@@ -56,7 +56,7 @@ namespace E_Commerce
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form1 w1 =new Form1();
+            login w1 =new login();
             w1.Show();
             this.Hide();
         }

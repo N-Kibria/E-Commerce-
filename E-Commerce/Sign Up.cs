@@ -20,7 +20,7 @@ namespace E_Commerce
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
+            login f1 = new login();
             f1.Show();
             this.Hide();
         }
@@ -56,7 +56,7 @@ namespace E_Commerce
                 {
                     if (password == retype_pass)
                     {
-                        string path = @"C:\Users\User\Desktop\projecttt\Information.txt";
+                        string path = @"C:\Users\User\Desktop\dummy2\Information.txt";
                         StreamWriter sw = File.AppendText(path);
                         user uu = new user(user_name, password,name);
                         utility.users.Add(uu);
@@ -67,7 +67,7 @@ namespace E_Commerce
                         MessageBox.Show("User created successfully");
 
                         // Show the login form
-                        Form1 lf = new Form1();
+                        login lf = new login();
                         lf.Show();
                         this.Hide();
                     }

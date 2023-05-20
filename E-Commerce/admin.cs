@@ -37,7 +37,7 @@ namespace E_Commerce
             { 
                 MessageBox.Show("Incorrect password. You cannot login as Admin.");
 
-                Form1 f1 = new Form1();
+                login f1 = new login();
                 f1.Show();
                 this.Hide();
 
