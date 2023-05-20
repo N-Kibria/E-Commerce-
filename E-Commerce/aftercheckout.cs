@@ -10,17 +10,22 @@ using System.Windows.Forms;
 
 namespace E_Commerce
 {
-    public partial class balance : Form
+    public partial class aftercheckout : Form
     {
-        public balance()
+        public aftercheckout()
         {
             InitializeComponent();
         }
 
         private void backbtn_Click(object sender, EventArgs e)
         {
-            welcome lf = new welcome();
-            lf.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your order has been successfully placed. Thank you.");
+            WelcomePage wse = new WelcomePage();
+            wse.Show();
             this.Hide();
         }
     }

@@ -138,5 +138,12 @@ namespace E_Commerce
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            aftercheckout acc = new aftercheckout();
+            acc.Show();
+            this.Hide();
+        }
     }
 }

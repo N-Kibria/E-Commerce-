@@ -11,15 +11,15 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace E_Commerce
 {
-    public partial class welcome : Form
+    public partial class WelcomePage : Form
     {
         private string user_name;
-        public welcome(string username)
+        public WelcomePage(string username)
         {
             InitializeComponent();
             this.user_name=username;
         }
-        public welcome() { }
+        public WelcomePage() { }
 
         private void welcome_Load(object sender, EventArgs e)
         {
@@ -61,7 +61,7 @@ namespace E_Commerce
 
         private void balancebtn_Click(object sender, EventArgs e)
         {
-            balance p1 = new balance();
+            aftercheckout p1 = new aftercheckout();
             p1.Show();
             this.Hide();
         }

@@ -64,11 +64,11 @@
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="balance.cs">
+    <Compile Include="aftercheckout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="balance.Designer.cs">
-      <DependentUpon>balance.cs</DependentUpon>
+    <Compile Include="aftercheckout.Designer.cs">
+      <DependentUpon>aftercheckout.cs</DependentUpon>
     </Compile>
     <Compile Include="cartorder.cs">
       <SubType>Form</SubType>
@@ -129,11 +129,11 @@
     </Compile>
     <Compile Include="user.cs" />
     <Compile Include="utility.cs" />
-    <Compile Include="welcome.cs">
+    <Compile Include="WelcomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="welcome.Designer.cs">
-      <DependentUpon>welcome.cs</DependentUpon>
+    <Compile Include="WelcomePage.Designer.cs">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="aarong.resx">
       <DependentUpon>aarong.cs</DependentUpon>
@@ -144,8 +144,8 @@
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="balance.resx">
-      <DependentUpon>balance.cs</DependentUpon>
+    <EmbeddedResource Include="aftercheckout.resx">
+      <DependentUpon>aftercheckout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="cartorder.resx">
       <DependentUpon>cartorder.cs</DependentUpon>
@@ -183,8 +183,8 @@
     <EmbeddedResource Include="TextMart.resx">
       <DependentUpon>TextMart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="welcome.resx">
-      <DependentUpon>welcome.cs</DependentUpon>
+    <EmbeddedResource Include="WelcomePage.resx">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

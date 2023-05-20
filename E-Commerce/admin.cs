@@ -12,7 +12,7 @@ namespace E_Commerce
 {
     public partial class admin : Form
     {
-        private string CorrectPassword = "iloveyou";
+        private string CorrectPassword = "teamlevel3";
         public admin()
         {
             InitializeComponent();

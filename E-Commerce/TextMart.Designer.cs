@@ -34,7 +34,7 @@
             // 
             // listViewfile
             // 
-            this.listViewfile.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.listViewfile.BackColor = System.Drawing.SystemColors.Info;
             this.listViewfile.HideSelection = false;
             this.listViewfile.Location = new System.Drawing.Point(33, 24);
             this.listViewfile.Name = "listViewfile";
