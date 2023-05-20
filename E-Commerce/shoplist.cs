@@ -50,5 +50,13 @@ namespace E_Commerce
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 q1 = new Form1();
+            q1.Show();
+            this.Hide();
+
+        }
     }
 }

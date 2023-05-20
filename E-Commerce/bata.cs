@@ -72,7 +72,7 @@ namespace E_Commerce
         }
         private void populate()
         {
-            string[] paths = Directory.GetFiles(@"C:\Users\User\Desktop\projecttt\shoes");
+            string[] paths = Directory.GetFiles(@"C:\Users\user\Desktop\Ecom-level@3\shoes");
             try
             {
                 int index = 0;

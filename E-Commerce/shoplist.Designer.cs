@@ -41,6 +41,7 @@
             this.listBox4 = new System.Windows.Forms.ListBox();
             this.listBox5 = new System.Windows.Forms.ListBox();
             this.listBox6 = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -166,6 +167,16 @@
             this.listBox6.Size = new System.Drawing.Size(168, 44);
             this.listBox6.TabIndex = 17;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(611, 460);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(149, 59);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // shoplist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -173,6 +184,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(866, 546);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox4);
             this.Controls.Add(this.listBox5);
             this.Controls.Add(this.listBox6);
@@ -207,5 +219,6 @@
         private System.Windows.Forms.ListBox listBox4;
         private System.Windows.Forms.ListBox listBox5;
         private System.Windows.Forms.ListBox listBox6;
+        private System.Windows.Forms.Button button1;
     }
 }

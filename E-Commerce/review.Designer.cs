@@ -127,6 +127,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "review";
             this.Text = "review";
+            this.Load += new System.EventHandler(this.review_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

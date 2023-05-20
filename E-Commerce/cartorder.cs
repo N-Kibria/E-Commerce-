@@ -12,10 +12,17 @@ namespace E_Commerce
 {
     public partial class cartorder : Form
     {
+        private Main_Welcome mainWelcomeForm; // Declare a variable to hold the instance of Main_Welcome form
         public cartorder()
         {
             InitializeComponent();
         }
+        public cartorder(Main_Welcome mainWelcomeForm)
+        {
+            InitializeComponent();
+            this.mainWelcomeForm = mainWelcomeForm;
+        }
+
         int itemsordered;
         const int numberofproducts = 20;
         product[] products = new product[numberofproducts];
@@ -121,16 +128,23 @@ namespace E_Commerce
                     }
                     break;
                 case 2:
-                    if (txtorderaddsress.Text == "")
+                    if (txtorderaddsress.Text == "" || emailtextBox.Text == "" || contacttextBox.Text == "") 
                     {
-                        MessageBox.Show("No address was entered,", "Invalid Order", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("No address or email or contact was entered.", "Invalid Order", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         ordertab.SelectedIndex = 0;
                         txtorderaddsress.Focus();
+                        emailtextBox.Focus();
+                        contacttextBox.Focus();
                     }
                     else
                     {
                         string address = txtorderaddsress.Text;
-                        mailinglabel.Text = address;
+                        mailinglabel.Text = $"Mailing address: {address}";
+                        string email = emailtextBox.Text;
+                        emaillabel.Text = $"Email address: {email}";
+                        string contact = contacttextBox.Text;
+                        contactlabel.Text = $"Contact Info: {contact}";
+
                     }
                     break;
 
@@ -141,7 +155,7 @@ namespace E_Commerce
 
         private void button1_Click(object sender, EventArgs e)
         {
-            aftercheckout acc = new aftercheckout();
+            aftercheckout acc = new aftercheckout(mainWelcomeForm);
             acc.Show();
             this.Hide();
         }

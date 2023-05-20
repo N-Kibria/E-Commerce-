@@ -20,16 +20,23 @@ namespace E_Commerce
             InitializeComponent();
             this.user_name = username;
         }
-        public profile() { }
+        private Main_Welcome mainWelcomeForm;
+        public profile(Main_Welcome mainWelcomeForm, string username)
+        {
+            InitializeComponent();
+            this.mainWelcomeForm = mainWelcomeForm;
+            this.user_name = username;
+        }
 
-      
+
 
         private void backbtn_Click(object sender, EventArgs e)
         {
-            WelcomePage lf = new WelcomePage();
-            lf.Show();
+            mainWelcomeForm.Show();
             this.Hide();
         }
+
+
 
         private void profile_Load(object sender, EventArgs e)
         {
@@ -47,7 +54,7 @@ namespace E_Commerce
             if (loggedInUser != null)
             {
                 // Display the user's information
-                MessageBox.Show($"Name: {loggedInUser.name}\nUsername: {loggedInUser.username}\nId: {loggedInUser.id}");
+                MessageBox.Show($"Name: {loggedInUser.name}\nUser Name: {loggedInUser.username}\nUser Id: {loggedInUser.id}");
             }
             else
             {

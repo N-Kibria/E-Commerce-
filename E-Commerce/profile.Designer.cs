@@ -34,21 +34,24 @@
             // 
             // backbtn
             // 
-            this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.Location = new System.Drawing.Point(365, 323);
+            this.backbtn.BackColor = System.Drawing.SystemColors.Info;
+            this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backbtn.Location = new System.Drawing.Point(411, 404);
+            this.backbtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(106, 46);
+            this.backbtn.Size = new System.Drawing.Size(239, 43);
             this.backbtn.TabIndex = 2;
-            this.backbtn.Text = "Back";
-            this.backbtn.UseVisualStyleBackColor = true;
+            this.backbtn.Text = "Back to Main Page";
+            this.backbtn.UseVisualStyleBackColor = false;
             this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
             // 
             // infobtn
             // 
             this.infobtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infobtn.Location = new System.Drawing.Point(34, 27);
+            this.infobtn.Location = new System.Drawing.Point(189, 153);
+            this.infobtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.infobtn.Name = "infobtn";
-            this.infobtn.Size = new System.Drawing.Size(262, 81);
+            this.infobtn.Size = new System.Drawing.Size(295, 101);
             this.infobtn.TabIndex = 4;
             this.infobtn.Text = "User Information";
             this.infobtn.UseVisualStyleBackColor = true;
@@ -56,11 +59,13 @@
             // 
             // profile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(551, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(686, 550);
             this.Controls.Add(this.infobtn);
             this.Controls.Add(this.backbtn);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "profile";
             this.Text = "profile";
             this.Load += new System.EventHandler(this.profile_Load);

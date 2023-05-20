@@ -60,7 +60,7 @@ namespace E_Commerce
             if (userFound)
             {
                 MessageBox.Show("Successfully logged in");
-                WelcomePage p1 = new WelcomePage( user_name);
+                Main_Welcome p1 = new Main_Welcome( user_name);
                 p1.Show();
                 this.Hide();
 
@@ -86,6 +86,11 @@ namespace E_Commerce
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

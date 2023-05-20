@@ -8,7 +8,7 @@ namespace E_Commerce
 {
     internal class user
     {
-        private static int idCounter = 2000000;
+        private static int idCounter = 0;
 
         public int id { get; }
         public string username { get; set; }

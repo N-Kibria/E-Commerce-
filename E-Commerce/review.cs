@@ -32,23 +32,25 @@ namespace E_Commerce
         public static double sum6;
 
 
-
-        public review()
+        private Main_Welcome mainWelcomeForm;
+        public review(Main_Welcome mainWelcomeForm)
         {
             InitializeComponent();
+            this.mainWelcomeForm = mainWelcomeForm;
         }
 
         private void backbtn_Click(object sender, EventArgs e)
         {
            
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 we = new Form1();
-            we.Show();
+          Form1 p1 = new Form1();
+            p1.Show();
             this.Hide();
         }
+
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -95,6 +97,7 @@ namespace E_Commerce
                         sum4 = Twarnings;
                     }
                 }
+            MessageBox.Show($"The Shop Has been Rated");
 
     }
 
@@ -104,6 +107,11 @@ namespace E_Commerce
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void review_Load(object sender, EventArgs e)
         {
 
         }

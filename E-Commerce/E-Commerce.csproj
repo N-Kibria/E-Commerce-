@@ -88,11 +88,11 @@
     <Compile Include="bata.Designer.cs">
       <DependentUpon>bata.cs</DependentUpon>
     </Compile>
-    <Compile Include="order status.cs">
+    <Compile Include="Main Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="order status.Designer.cs">
-      <DependentUpon>order status.cs</DependentUpon>
+    <Compile Include="Main Welcome.Designer.cs">
+      <DependentUpon>Main Welcome.cs</DependentUpon>
     </Compile>
     <Compile Include="product.cs" />
     <Compile Include="profile.cs">
@@ -129,12 +129,6 @@
     </Compile>
     <Compile Include="user.cs" />
     <Compile Include="utility.cs" />
-    <Compile Include="WelcomePage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WelcomePage.Designer.cs">
-      <DependentUpon>WelcomePage.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="aarong.resx">
       <DependentUpon>aarong.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,8 +150,8 @@
     <EmbeddedResource Include="bata.resx">
       <DependentUpon>bata.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="order status.resx">
-      <DependentUpon>order status.cs</DependentUpon>
+    <EmbeddedResource Include="Main Welcome.resx">
+      <DependentUpon>Main Welcome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="profile.resx">
       <DependentUpon>profile.cs</DependentUpon>
@@ -182,9 +176,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TextMart.resx">
       <DependentUpon>TextMart.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WelcomePage.resx">
-      <DependentUpon>WelcomePage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
