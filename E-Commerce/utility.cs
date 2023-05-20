@@ -24,7 +24,7 @@ namespace E_Commerce
         public static void load_users()
 
         {
-            string path = @"C:\Users\User\Desktop\dummy2\Information.txt";
+            string path = @"G:\IUT\Semester\1-2\SWE 4202\1\Information.txt";
         
         StreamReader srr = new StreamReader(path);
 

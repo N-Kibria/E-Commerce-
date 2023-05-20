@@ -17,16 +17,23 @@ namespace E_Commerce
         {
             InitializeComponent();
         }
+        int itemsordered;
+        int sizenum;
+        int c;
+
+        const int numberofproducts = 20;
+        const int numberofsize = 4;
+        product[] products = new product[numberofproducts];
+        productsize[] sizes = new productsize[numberofsize];
+
+        private List<int> orderedSizes = new List<int>();
         public cartorder(Main_Welcome mainWelcomeForm)
         {
             InitializeComponent();
             this.mainWelcomeForm = mainWelcomeForm;
         }
 
-        int itemsordered;
-        const int numberofproducts = 20;
-        product[] products = new product[numberofproducts];
-
+        
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -46,8 +53,22 @@ namespace E_Commerce
         private void btnaddtoorder_Click(object sender, EventArgs e)
         {
             products[dudproducts.SelectedIndex].numberordered++;
+            sizes[dudsize.SelectedIndex].sizeordered++;
+
             itemsordered++;
+            sizenum++;
+
             lblitemsordered.Text = "Items Ordered: " + itemsordered.ToString();
+
+
+            int selectedSize = sizes[dudsize.SelectedIndex].size;
+            if (!orderedSizes.Contains(selectedSize))
+            {
+                orderedSizes.Add(selectedSize);
+                c++;
+
+            }
+
         }
 
         private void lblitemsordered_Click(object sender, EventArgs e)
@@ -65,8 +86,15 @@ namespace E_Commerce
             {
                 products[i].numberordered = 0;
             }
+            for (int i = 0; i < numberofsize; i++)
+            {
+                sizes[i].sizeordered = 0;
+            }
+
             dudproducts.SelectedIndex = 0;
+            dudsize.SelectedIndex = 0;
             listProducts.Items.Clear();
+            listsize.Items.Clear();
             lblcost.Text = "Total Cost";
             mailinglabel.Text = "";
 
@@ -94,12 +122,23 @@ namespace E_Commerce
             products[17] = new product("Zaviyar Premium Panjabi  (Batik print)", 1800.99);
             products[18] = new product("Zaviyar Premium Panjabi  Aquamarine", 1700);
             products[19] = new product("Zaviyar Premium Panjabi  Oil Black", 1499);
-
+ sizes[0] = new productsize(36);
+            sizes[1] = new productsize(38);
+            sizes[2] = new productsize(40);
+            sizes[3] = new productsize(42);
+           
             for (int i = 0; i < numberofproducts; i++)
             {
                 dudproducts.Items.Add(products[i].description);
+              
             }
             dudproducts.SelectedIndex = 0;
+            for (int i = 0; i < numberofsize; i++)
+            {
+                dudsize.Items.Add(sizes[i].size);
+            }
+            
+            dudsize.SelectedIndex = 0;
         }
 
         private void ordertab_SelectedIndexChanged(object sender, EventArgs e)
@@ -107,7 +146,7 @@ namespace E_Commerce
             switch (ordertab.SelectedIndex)
             {
                 case 1:
-                    if (itemsordered == 0)
+                    if (itemsordered == 0 && sizenum == 0)
                     {
                         MessageBox.Show("No items were ordered,", "Invalid Order", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         ordertab.SelectedIndex = 0;
@@ -116,19 +155,34 @@ namespace E_Commerce
                     {
                         double totalcost = 0;
                         listProducts.Items.Clear();
+                        listsize.Items.Clear();
                         for (int i = 0; i < numberofproducts; i++)
                         {
                             if (products[i].numberordered != 0)
                             {
                                 listProducts.Items.Add(products[i].numberordered.ToString() + " " + products[i].description);
+
+
+                               
+                                
+                                    listsize.Items.Add(products[i].description + " " + orderedSizes[0]);
+
+
+
+                                
+
+
+
                                 totalcost += products[i].cost * products[i].numberordered;
                             }
                         }
+
+
                         lblcost.Text = "Total Cost: $" + string.Format("{0:f2}", totalcost);
                     }
                     break;
                 case 2:
-                    if (txtorderaddsress.Text == "" || emailtextBox.Text == "" || contacttextBox.Text == "") 
+                    if (txtorderaddsress.Text == "" || emailtextBox.Text == "" || contacttextBox.Text == "")
                     {
                         MessageBox.Show("No address or email or contact was entered.", "Invalid Order", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         ordertab.SelectedIndex = 0;
@@ -158,6 +212,11 @@ namespace E_Commerce
             aftercheckout acc = new aftercheckout(mainWelcomeForm);
             acc.Show();
             this.Hide();
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

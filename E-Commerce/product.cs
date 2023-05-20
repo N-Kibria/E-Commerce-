@@ -16,7 +16,26 @@ namespace E_Commerce
         {
             this.description = d;
             this.cost = c;
+            numberordered = 0;
         }
 
     }
+}
+namespace E_Commerce
+{
+    internal class productsize
+    {
+        public int size { get; set; }
+        public int sizeordered { get; set; }
+
+
+        public productsize(int d)
+        {
+            this.size = d;
+            sizeordered = 0;
+
+        }
+
+    }
+
 }
